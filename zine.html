@@ -50,71 +50,64 @@
   <body>
     <!-- Top Bar -->
     <header class="bg-[#F4F4ED] px-6 py-2 shadow-sm">
-        <div class="grid grid-cols-[auto_1fr] items-center gap-x-8 max-w-4xl mx-auto">
-            <img
-              src="/assets/LogoPreview160x160.png"
-              alt="AlsterInkLogo"
-              class="w-[80px] h-auto"
-            />
-            <p class="text-[#95A472] text-6xl font-[Parisienne] px-12">
-              Made of moments.
-            </p>
-          </div>
-          
+      <div
+        class="grid grid-cols-[auto_1fr] items-center gap-x-8 max-w-4xl mx-auto"
+      >
+        <img
+          src="/assets/LogoPreview160x160.png"
+          alt="AlsterInkLogo"
+          class="w-[80px] h-auto"
+        />
+        <p class="text-[#95A472] text-6xl font-[Parisienne] px-12">
+          Made of moments.
+        </p>
+      </div>
     </header>
     <!-- Sticky Nav Bar -->
     <nav class="sticky top-0 bg-white shadow-md z-50">
       <div class="max-w-4xl mx-auto px-6 py-3 space-x-6 text-[#4A4A4A]">
-        <a href="zine.html" class="hover:text-[#95A472] font-medium">The Zine</a>
+        <a href="index.html" class="hover:text-[#95A472] font-medium">Home</a>
       </div>
     </nav>
-    <!-- Hero Carousel Section -->
-    <section class="max-w-5xl mx-auto mt-2 relative block overflow-hidden rounded-lg shadow-lg">
-        <div class="carousel-slide relative w-full h-96">
+    <!-- Grid container -->
+    <div class="grid grid-cols-3 md:grid-cols-3 gap-6 pl-5 pr-5 mt-4">
+      <!-- Post 1 -->
+      <div class="p-4">
+        <h3 class="text-xl font-semibold">Hamburg, meine Perle</h3>
+        <p class="text-gray-600 mt-2">Our debut edition is coming soon!</p>
+        <p class="text-gray-600 mt-2">Watch this space!</p>
+      </div>
+      <!-- Post 2 -->
+      <div class="p-4">
+        <div
+          class="relative overflow-visible inline-block max-w-[300px] w-full"
+        >
+          <img
+            src="/img/endlich_fruehling_389x486.png"
+            alt="Zine"
+            class="object-cover rounded-t-lg w-full h-auto"
+          />
           <div
-            class="absolute inset-0 transition-opacity duration-700 opacity-100 z-0"
+            class="p-4 absolute -bottom-4 -right-12 bg-amber-50/80 shadow-lg rounded-lg"
           >
-            <img
-              src="/img/PXL_20250404_162623449.jpg"
-              alt="Slide 1"
-              class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 opacity-100 filter brightness-105 contrast-110 saturate-110"
-            />
-            <!-- Overlay (gradient) -->
-            <div
-              class="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent z-10"
-            ></div>
-          </div>
-          <div
-            class="absolute inset-0 transition-opacity duration-700 opacity-100 z-0"
-          >
-            <img
-              src="/img/PXL_20250402_114236634.jpg"
-              alt="Slide 2"
-              class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 opacity-0 filter brightness-105 contrast-110 saturate-110"
-            />
-            <!-- Overlay (gradient) -->
-            <div
-              class="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent z-10"
-            ></div>
-          </div>
-          <div
-            class="absolute inset-0 transition-opacity duration-700 opacity-100 z-0"
-          >
-            <img
-              src="/img/PXL_20240530_193242453.jpg"
-              alt="Slide 3"
-              class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 opacity-0 filter brightness-105 contrast-110 saturate-110"
-            />
-            <!-- Overlay (gradient) -->
-            <div
-              class="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent z-10"
-            ></div>
+            <h3 class="text-base font-semibold text-[#6F7C12]">
+              Hamburg, meine Perle
+            </h3>
+            <p class="text-[#6F7C12] mt-2 text-sm">
+              Basking in the glory that is Alster
+            </p>
           </div>
         </div>
-      </a>
-    </section>
-    <footer>
-        <div id="footer"></div>
-    </footer>
+      </div>
+      <!-- Post 3 -->
+      <div class="p-4">
+        <h3 class="text-xl font-semibold">About Us</h3>
+        <p>We are a passionate group of English prose and poetry enthusiasts</p>
+        <p class="text-gray-600 mt-2">
+          We are working on bringing you some of our best selves - our writings,
+          musings and readings
+        </p>
+      </div>
+    </div>
   </body>
 </html>
